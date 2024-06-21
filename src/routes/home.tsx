@@ -80,10 +80,10 @@ const Home = () => {
   //   }
   // };
 
-  const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = event.target;
-    setFormFields({ ...formFields, [name]: value });
-  };
+  // const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
+  //   const { name, value } = event.target;
+  //   setFormFields({ ...formFields, [name]: value });
+  // };
 
   return (
     <div className="flex justify-center items-center h-[100dvh] w-full">
